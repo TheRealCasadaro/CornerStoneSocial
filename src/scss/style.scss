@@ -2,7 +2,7 @@ $bg-color:#333;
 $font-color:#fff;
 $primary-color:#00e8d6;
 $dark-overlay: rgba(0,0,0,0.7);
-$font-size: 30px;
+$icon-size: 30px;
 
 body{
     background: $bg-color;
@@ -10,11 +10,11 @@ body{
 }
 
 .navbar{
-    border-bottom: $primary-color;
+    border-bottom:1px solid $primary-color;
     opacity: 0.8;
 }
 
-#home{
+#home-section{
     background: url('../img/jessica-sysengrath-440137.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -41,6 +41,16 @@ body{
         background: #fff;
         padding: 4px;
         border-radius: 5px;
-        font-size: $font-size;
+        font-size: $icon-size;
+    }
+}
+
+#explore-section{
+    .fa{
+        color:#fff;
+        background:#333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
     }
 }
